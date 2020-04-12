@@ -1,9 +1,11 @@
+'use strict';
+
 const express = require('express');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const HOST = '0.0.0.0';
+const PORT = 8080;
 
 const app = express();
 const config = require('./webpack.config.js');
@@ -16,6 +18,6 @@ app.use(webpackDevMiddleware(compiler, {
 }));
 
 // Serve the files on port 3000.
-app.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(PORT, HOST, () => {
+    console.log(`Server running at http://${HOST}:${PORT}/`);
 });
