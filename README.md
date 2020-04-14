@@ -3,9 +3,7 @@
 This repo is an effort to configure a foundational config of modern web dev tools.
 
 Current tools configured are: Git, Node, Express, Cypress (E2E testing), Webpack, Babel,
-Typescript, and Docker. 
-
-Future tools to be included are: Sentry.io (error reporting)
+Typescript, Sentry, and Docker.
 
 For Node:
 
