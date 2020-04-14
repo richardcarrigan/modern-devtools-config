@@ -22,6 +22,3 @@ Verify success by running '[sudo] docker images'
 Start docker container by running '[sudo] docker run -p 49160:8080 -d richardcarrigan/node-server'
 Verify success by running '[sudo] docker ps'
 View app by navigating to 'localhost:49160' in browser or view server response by running 'curl -i localhost:49160'
-
-Note: there is a known issue in which importing modules ("import _ from 'lodash';" | "import * as _ from 'lodash';")
-generates 'ReferenceError: require is not defined'. This seems to be an error caused by the current config of Webpack, Babel, and Typescript. Once a suitable fix has been found, this note will be removed or updated.
