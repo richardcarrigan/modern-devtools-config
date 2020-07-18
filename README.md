@@ -1,4 +1,4 @@
-# node-server
+# Modern Devtools Config
 
 This repository was inspired by **Mehul Mohan's** FreeCodeCamp article [*'10 Popular Web Development Tools that Every Programmer Should Know'*](https://www.freecodecamp.org/news/handy-web-development-toolkit). Because I had heard of many of these tools but hadn't used all of them, let alone together on a single project, I was curious how, and most importantly why, I would configure all of these tools to work in harmony. It took quite a bit of effort and many hours of sifting through the various documentation pages, but here it is.
 
